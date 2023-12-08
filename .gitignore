@@ -1,0 +1,5 @@
+venv/
+photos/
+.idea/
+__pycache__/*
+.pre-commit-config.yaml

@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  gesture_checker:
+    container_name: photo_gesture_checker
+    restart: always
+    image: photo_gesture_checker_image
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/photo_gesture_checker
